@@ -2,8 +2,7 @@
 Enter a string and the program counts the number of vowels in the text. 
 For added complexity have it report a sum of each vowel found.
 """
-#%%
-# ord(a) = 97
+
 input_str = input('Insert String: ')
 input_str = input_str.lower()
 count_arr = [0] * 26
